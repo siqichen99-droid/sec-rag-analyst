@@ -2,14 +2,14 @@
 
 > Conversational Q&A over SEC 10-K filings with structure-aware retrieval and cited answers.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[YOUR-APP-NAME].streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sec-rag-analyst.streamlit.app)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 
 A production-grade RAG pipeline over SEC 10-K filings for **Apple, Microsoft, and Alphabet** (FY2023–FY2025). Built with LangChain, Chroma, and OpenAI. Every answer is grounded in specific 10-K sections and cited inline.
 
 ![Hero screenshot](docs/screenshot-hero.png)
 
-🔗 **Live demo:** [your-app-name.streamlit.app](https://[YOUR-APP-NAME].streamlit.app)
+🔗 **Live demo:** [sec-rag-analyst.streamlit.app](https://sec-rag-analyst.streamlit.app)
 📂 **9 filings indexed · 685 chunks · 11 SEC Items · ~$0.01 to (re-)build the index**
 
 ---
@@ -84,7 +84,7 @@ Each preset in the UI configures filters + retrieval strategy automatically.
 ## Setup (run locally)
 
 ```bash
-git clone https://github.com/[YOUR-USERNAME]/sec-rag-analyst.git
+git clone https://github.com/siqichen99-droid/sec-rag-analyst.git
 cd sec-rag-analyst
 
 python -m venv .venv
